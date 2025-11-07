@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    Music Player
+    <button class="toggle-mode" id="modeBtn" aria-pressed="false">Light/Dark</button>
+  </header>
+
+  <div class="wrap">
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Search songs...">
+    </div>
+
+    <div class="controls" aria-label="Playback options">
+      <button class="btn" id="shuffleBtn" aria-pressed="false">Shuffle</button>
+      <button class="btn" id="repeatBtn" aria-pressed="false">Repeat</button>
+    </div>
+
+    <div class="playlist" id="playlistContainer"></div>
+  </div>
+
+  <div class="player">
+    <div class="player-inner">
+      <div class="now">
+        <img id="nowCover" alt="cover">
+        <div class="titles">
+          <div class="title" id="nowTitle">Not playing</div>
+          <div class="artist" id="nowArtist">—</div>
+        </div>
+      </div>
+
+      <div class="controls-row">
+        <button class="round" id="prevBtn" title="Previous">⏮</button>
+        <button class="play" id="playBtn" title="Play/Pause">▶</button>
+        <button class="round" id="nextBtn" title="Next">⏭</button>
+      </div>
+
+      <div class="progress">
+        <span class="time" id="curTime">0:00</span>
+        <input type="range" id="seek" class="seek" min="0" max="100" value="0" step="1" aria-label="Seek">
+        <span class="time" id="durTime">0:00</span>
+        <input type="range" id="volume" class="vol" min="0" max="1" step="0.01" value="1" aria-label="Volume">
+      </div>
+    </div>
+    <audio id="audio"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
