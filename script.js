@@ -1,14 +1,14 @@
 const songs = [
   { title: "Bekhayali", artist:"Sachet–Parampara", file: "Song1.mp3", cover: "cover1.jpg" },
-  { title: "Dil Diyan Gallan", artist:"Atif Aslam", file: "song2.mp3", cover: "cover2.jpg" },
-  { title: "Apna Bana Le Piya", artist:"Arijit Singh", file: "song3.mp3", cover: "cover3.jpg" },
-  { title: "Besabriya", artist:"Armaan Malik", file: "song4.mp3", cover: "cover4.jpg" },
-  { title: "Ranjha", artist:"B Praak", file: "song5.mp3", cover: "cover5.jpg" },
-  { title: "Churake Dil Mera", artist:"Kumar Sanu", file: "song6.mp3", cover: "cover6.jpg" },
-  { title: "Falak Tak Chal", artist:"Udit Narayan", file: "song7.mp3", cover: "cover7.jpg" },
-  { title: "Mai Royaan", artist:"Tanveer Evan", file: "song8.mp3", cover: "cover8.jpg" },
-  { title: "Jaan Nisar", artist:"Arijit Singh", file: "song9.mp3", cover: "cover9.jpg" },
-  { title: "Illahi x Night Changes", artist:"Arijit/1D", file: "song10.mp3", cover: "cover10.jpg" }
+  { title: "Dil Diyan Gallan", artist:"Atif Aslam", file: "Song2.mp3", cover: "Cover2.jpg" },
+  { title: "Apna Bana Le Piya", artist:"Arijit Singh", file: "Song3.mp3", cover: "Cover3.jpg" },
+  { title: "Besabriya", artist:"Armaan Malik", file: "Song4.mp3", cover: "Cover4.jpg" },
+  { title: "Ranjha", artist:"B Praak", file: "Song5.mp3", cover: "Cover5.jpg" },
+  { title: "Churake Dil Mera", artist:"Kumar Sanu", file: "Song6.mp3", cover: "Cover6.jpg" },
+  { title: "Falak Tak Chal", artist:"Udit Narayan", file: "Song7.mp3", cover: "Cover7.jpg" },
+  { title: "Mai Royaan", artist:"Tanveer Evan", file: "Song8.mp3", cover: "Cover8.jpg" },
+  { title: "Jaan Nisar", artist:"Arijit Singh", file: "Song9.mp3", cover: "Cover9.jpg" },
+  { title: "Illahi x Night Changes", artist:"Arijit/1D", file: "Song10.mp3", cover: "Cover10.jpg" }
 ];
 
 // DOM refs
